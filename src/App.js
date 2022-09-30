@@ -70,7 +70,7 @@ function App() {
               <BsTwitter />
             </a>
             <span className="btn me-2"><SiTumblr /></span>
-            <span className="btn ms-auto" onClick={changeQuote}>New Quote</span>
+            <span id="new-quote" className="btn ms-auto" onClick={changeQuote}>New Quote</span>
 
           </div>
 
