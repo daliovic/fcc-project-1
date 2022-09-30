@@ -46,7 +46,7 @@ function App() {
     i = (i===QUOTES.length)? 1:i;
     quote = QUOTES[i]
     setTxt(quote.text)
-    setAth(quote.author)
+    setAth(quote.author) 
     //console.log(author)
 
 
